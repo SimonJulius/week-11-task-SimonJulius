@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonJulius/week-11-task-SimonJulius.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonJulius/week-11-task-SimonJulius/issues"
+  },
+  "homepage": "https://github.com/SimonJulius/week-11-task-SimonJulius#readme"
 }
