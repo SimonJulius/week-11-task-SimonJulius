@@ -1,11 +1,9 @@
-import express from "express";
 import logger from "morgan";
+import express from "express";
 import { graphqlHTTP } from "express-graphql";
 
-import schema from "./schemas";
+import schema from "./schema";
 const app = express();
-const port = process.env.PORT || 2500;
-
 app.use(logger("dev"));
 app.use(
   "/graphql",
@@ -15,6 +13,4 @@ app.use(
   })
 );
 
-app.listen(port, () => {
-  console.log(`Now listening or port ${port}`);
-});
+export default app;
